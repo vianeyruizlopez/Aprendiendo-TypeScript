@@ -14,4 +14,9 @@ export class UserService implements IUserService{
     async findUsers(): Promise<User[]> {
         return this.userRepository.find()
     }
+    /*
+     async findUsers(): Promise<User[]> {
+        return this.userRepository.find()
+    }
+    */
 }
