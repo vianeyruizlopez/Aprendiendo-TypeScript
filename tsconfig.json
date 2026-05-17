@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    /* Diseño del Proyecto */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* Configuración del Entorno */
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2022",
+    "skipLibCheck": true,
+
+    /* CONFIGURACIÓN DE ALIAS */
+    "baseUrl": "./",
+    "paths": {
+      "@server/*": ["src/*"]
+    },
+
+    /* Opciones Recomendadas y de Seguridad */
+    "strict": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true
+  },
+  "include": ["src/**/*"]
+}
